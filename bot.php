@@ -1,14 +1,14 @@
 <?php
 /*
-Toby tamvan :v
-Support by : Mastah Ervan
+BLAZE TEAM :v
+Support by : AYAH DAN IBU. :v
 */
 
 require_once('./line_class.php');
 require_once('./unirest-php-master/src/Unirest.php');
 
-$channelAccessToken = 'vd1bR2yHFTI4P72I1dttBff7KDCVZBVIkRzYo9ump0w+isoeA47q+m1Jea6f8NeZu5/AiOWSXSW6zyYTuzf7XDXj8/gyblUF19yrzGr9RJpBq0fEsJEYIn53WzQCFsywFH5gnIChiLYG9JKy/hSN6wdB04t89/1O/w1cDnyilFU='; //sesuaikan 
-$channelSecret = 'b151ace4cb6df5dc6d3e4c95bdf47f92';//sesuaikan
+$channelAccessToken = 'L7sb+AXLBXCLQhczkGSMsQGvrEDiAyUAUHyJR2biq1XePOoJJ1x8RHij60p9XeCrCZSjwAFJBi7i6D4ykp87qwOrk51gDqwhjj2lKO+qnl1+Cm/5JFbLI4CP7AmgQ6UkayGBZyMqX1ZV8NiO4NDmmQdB04t89/1O/w1cDnyilFU='; //sesuaikan 
+$channelSecret = '6b041d79e94ef4db624490b7dc80bacc';//sesuaikan
 
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);
 
@@ -381,27 +381,27 @@ function zodiak($keyword) {
 //show menu, saat join dan command /menu
 if ($type == 'join' || $command == 'Help') {
     $text = "Makasih dh invite aku ke grup kak!! Ketik Help untuk gunain aku\n";
-    $text .= "Keyword Steve ~~~\n";
-    $text .= "> /anime-syn [text]\n";
-    $text .= "> /anime [text]\n";
-    $text .= "> /yt-get [link]\n";
-    $text .= "> /music [lagu]\n";
-    $text .= "> /say [text]\n";
-    $text .= "> /lirik [lagu]\n";
-    $text .= "> /shalat [namakota]\n";
-    $text .= "> /zodiak [tanggallahir]\n";
-    $text .= "> /lokasi [namakota]\n";
-    $text .= "> /time [namakota]\n";
-    $text .= "> /kalender [namakota]\n";
-    $text .= "> /cuaca [namakota]\n";
-    $text .= "> /film-syn [namafilm]\n";
-    $text .= "> /def [text]\n";
-    $text .= "> /qiblat [namakota]\n";
-    $text .= "> /playstore [namaapk]\n";
-    $text .= "> /myinfo\n";
-    $text .= "> /creator\n";
-    $text .= "> /about\n";
-    $text .= "> /bantuan\n";
+    $text .= "Keyword Blaze ~~~\n╔═════════════════════\n";
+    $text .= "╠❂͜͜͜͡͡͡➣ /anime-syn [text]\n";
+    $text .= "╠❂͜͜͜͡͡͡➣ /anime [text]\n";
+    $text .= "╠❂͜͜͜͡͡͡➣ /yt-get [link]\n";
+    $text .= "╠❂͜͜͜͡͡͡➣ /music [lagu]\n";
+    $text .= "╠❂͜͜͜͡͡͡➣ /say [text]\n";
+    $text .= "╠❂͜͜͜͡͡͡➣ /lirik [lagu]\n";
+    $text .= "╠❂͜͜͜͡͡͡➣ /shalat [namakota]\n";
+    $text .= "╠❂͜͜͜͡͡͡➣ /zodiak [tanggallahir]\n";
+    $text .= "╠❂͜͜͜͡͡͡➣ /lokasi [namakota]\n";
+    $text .= "╠❂͜͜͜͡͡͡➣ /time [namakota]\n";
+    $text .= "╠❂͜͜͜͡͡͡➣ /kalender [namakota]\n";
+    $text .= "╠❂͜͜͜͡͡͡➣ /cuaca [namakota]\n";
+    $text .= "╠❂͜͜͜͡͡͡➣ /film-syn [namafilm]\n";
+    $text .= "╠❂͜͜͜͡͡͡➣ /def [text]\n";
+    $text .= "╠❂͜͜͜͡͡͡➣ /qiblat [namakota]\n";
+    $text .= "╠❂͜͜͜͡͡͡➣ /playstore [namaapk]\n";
+    $text .= "╠❂͜͜͜͡͡͡➣ /myinfo\n";
+    $text .= "╠❂͜͜͜͡͡͡➣ /about\n";
+    $text .= "╠❂͜͜͜͡͡͡➣ /bantuan\n╚═════════════════════";
+    $text .= "Creator By : BlazeTeamBot.\n◎℘ɞʟѧẓєṭєѧṃɞȏṭ℘◎";
     $balas = array(
         'replyToken' => $replyToken,
         'messages' => array(
@@ -863,7 +863,7 @@ if($message['type']=='text') {
 										    array (
 										      0 => 
 										      array (
-										        'thumbnailImageUrl' => 'https://raw.githubusercontent.com/TobyGaming74/TobyBotOa/master/Toby.png',
+										        'thumbnailImageUrl' => 'https://raw.githubusercontent.com/RdnRmdhn29/Not-Found/master/Blaze.png',
 										        'title' => 'Keyword 1',
 										        'text' => 'Silahkan Dipilih',
 										        'actions' => 
@@ -893,7 +893,7 @@ if($message['type']=='text') {
 										      ),
 										      1 => 
 										      array (
-										        'thumbnailImageUrl' => 'https://raw.githubusercontent.com/TobyGaming74/TobyBotOa/master/Toby.png',
+										        'thumbnailImageUrl' => 'https://raw.githubusercontent.com/RdnRmdhn29/Not-Found/master/Blaze.png',
 										        'title' => 'Keyword 2',
 										        'text' => 'Silahkan Dipilih',
 										        'actions' => 
@@ -923,7 +923,7 @@ if($message['type']=='text') {
 										      ),
 										      1 => 
 										      array (
-										        'thumbnailImageUrl' => 'https://raw.githubusercontent.com/TobyGaming74/TobyBotOa/master/Toby.png',
+										        'thumbnailImageUrl' => 'https://raw.githubusercontent.com/RdnRmdhn29/Not-Found/master/Blaze.png',
 										        'title' => 'Keyword 3',
 										        'text' => 'Silahkan Dipilih',
 										        'actions' => 
