@@ -7,7 +7,7 @@ Support by : AYAH DAN IBU. :v
 require_once('./line_class.php');
 require_once('./unirest-php-master/src/Unirest.php');
 
-$channelAccessToken = 'L7sb+AXLBXCLQhczkGSMsQGvrEDiAyUAUHyJR2biq1XePOoJJ1x8RHij60p9XeCrCZSjwAFJBi7i6D4ykp87qwOrk51gDqwhjj2lKO+qnl1+Cm/5JFbLI4CP7AmgQ6UkayGBZyMqX1ZV8NiO4NDmmQdB04t89/1O/w1cDnyilFU='; //sesuaikan 
+$channelAccessToken = '//1jngNXsduPKESnvBiwEz+D1fXIgtFwCvWqv+ZqhX4AwXZPm7LBcphi466ABdnQCZSjwAFJBi7i6D4ykp87qwOrk51gDqwhjj2lKO+qnl3SWYuk6X8+zK68HgKUYEnNMTV3p0bCL4W1JBYfyfEVugdB04t89/1O/w1cDnyilFU='; //sesuaikan 
 $channelSecret = '6b041d79e94ef4db624490b7dc80bacc';//sesuaikan
 
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);
@@ -953,7 +953,7 @@ if($message['type']=='text') {
 										      ),
 										      1 => 
 										      array (
-										        'thumbnailImageUrl' => https://raw.githubusercontent.com/RdnRmdhn29/Not-Found/master/Blaze.png',
+										        'thumbnailImageUrl' => 'https://raw.githubusercontent.com/RdnRmdhn29/Not-Found/master/Blaze.png',
 										        'title' => 'Keyword 4',
 										        'text' => 'Silahkan Dipilih',
 										        'actions' => 
