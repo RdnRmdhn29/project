@@ -380,7 +380,7 @@ function zodiak($keyword) {
 #-------------------------[Function]-------------------------#
 //show menu, saat join dan command /menu
 if ($type == 'join' || $command == 'Help') {
-    $text = "Makasih dh invite aku ke grup kak!! Ketik Help untuk gunain aku\n";
+    $text = "℘B⃟L⃟A⃟Z⃟E⃟T⃟E⃟A⃟M⃟B⃟O⃟T⃟℘\n";
     $text .= "Keyword Blaze ~~~\n╔═════════════════════\n";
     $text .= "╠❂͜͜͜͡͡͡➣ /anime-syn [text]\n";
     $text .= "╠❂͜͜͜͡͡͡➣ /anime [text]\n";
@@ -400,7 +400,7 @@ if ($type == 'join' || $command == 'Help') {
     $text .= "╠❂͜͜͜͡͡͡➣ /playstore [namaapk]\n";
     $text .= "╠❂͜͜͜͡͡͡➣ /myinfo\n";
     $text .= "╠❂͜͜͜͡͡͡➣ /about\n";
-    $text .= "╠❂͜͜͜͡͡͡➣ /bantuan\n╚═════════════════════";
+    $text .= "╠❂͜͜͜͡͡͡➣ /bantuan\n╚═════════════════════\n";
     $text .= "Creator By : BlazeTeamBot.\n◎℘ɞʟѧẓєṭєѧṃɞȏṭ℘◎";
     $balas = array(
         'replyToken' => $replyToken,
@@ -953,7 +953,7 @@ if($message['type']=='text') {
 										      ),
 										      1 => 
 										      array (
-										        'thumbnailImageUrl' => 'https://raw.githubusercontent.com/TobyGaming74/TobyBotOa/master/Toby.png',
+										        'thumbnailImageUrl' => https://raw.githubusercontent.com/RdnRmdhn29/Not-Found/master/Blaze.png',
 										        'title' => 'Keyword 4',
 										        'text' => 'Silahkan Dipilih',
 										        'actions' => 
@@ -983,7 +983,7 @@ if($message['type']=='text') {
 										      ),
 										      1 => 
 										      array (
-										        'thumbnailImageUrl' => 'https://raw.githubusercontent.com/TobyGaming74/TobyBotOa/master/Toby.png',
+										        'thumbnailImageUrl' => 'https://raw.githubusercontent.com/RdnRmdhn29/Not-Found/master/Blaze.png',
 										        'title' => 'Keyword 5',
 										        'text' => 'Silahkan Dipilih',
 										        'actions' => 
@@ -1013,7 +1013,7 @@ if($message['type']=='text') {
 										      ),
 										      1 => 
 										      array (
-										        'thumbnailImageUrl' => 'https://raw.githubusercontent.com/TobyGaming74/TobyBotOa/master/Toby.png',
+										        'thumbnailImageUrl' => 'https://raw.githubusercontent.com/RdnRmdhn29/Not-Found/master/Blaze.png',
 										        'title' => 'Keyword 6',
 										        'text' => 'Silahkan Dipilih',
 										        'actions' => 
@@ -1043,7 +1043,7 @@ if($message['type']=='text') {
 										      ),
 										      2 => 
 										      array (
-										        'thumbnailImageUrl' => 'https://raw.githubusercontent.com/TobyGaming74/TobyBotOa/master/Toby.png',
+										        'thumbnailImageUrl' => 'https://raw.githubusercontent.com/RdnRmdhn29/Not-Found/master/Blaze.png',
 										        'title' => 'Keyword 7',
 										        'text' => 'Silahkan Dipilih',
 										        'actions' => 
